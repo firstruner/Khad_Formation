@@ -1,0 +1,9 @@
+C:\Users\Christophe\Documents\Workspace\Khad_Formation\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\c#\Khad_Formation-master\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\c#\Khad_Formation-master\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\c#\Khad_Formation-master\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\c#\Khad_Formation-master\ConsoleApp1\ConsoleApp1\bin\Debug\KhadLib1.dll
+C:\c#\Khad_Formation-master\ConsoleApp1\ConsoleApp1\bin\Debug\KhadLib1.pdb
+C:\c#\Khad_Formation-master\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojResolveAssemblyReference.cache
+C:\c#\Khad_Formation-master\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\c#\Khad_Formation-master\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
