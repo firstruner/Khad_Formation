@@ -1,23 +1,33 @@
-﻿namespace ConsoleApp1
+﻿using System;
+using System.Collections.Generic;
+using KhadLib1.Classes;
+
+namespace ConsoleApp1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            // --- Projet : KhadLib1 ---
-            // TODO 1 : Créer une classe instanciable héritant de l'interface
-            //          IEncoreDecode permettant d'encrypter et décrypter une chaine
-            // 
-            // TODO 2 : Créer une méthode permettant l'accès à la classe créer précédemment via une factory
-            //
-            // --- Projet : ConsoleApp1
-            // TODO : Encrypter un texte via la clé publique fournie dans l'énumération de l'app un texte et
-            //        sauvegarder le texte crypter (J'ai la clé privée - Si tout va bien je pourrais décrypter ton texte)
-            //
-            // TODO : Encrypter le texte fournie dans l'énumération de l'app avec la clé de l'app et le sauvegarder
-            //        dans un fichier
+            List<People> employeesList = CreateObjects();
 
-            // !! ATTENTION à ta façon de coder !!
+            // --- Projet : KhadLib1 ---
+            // TODO : Créer les méthodes de sérialization et désérialization des objets People
+            //          La sérialization doit pouvoir inclure le cryptage et décryptage
+            //          des données afin que l'utilisateur lambda ne puisse pas avoir accès
+            //          aux informations.
+            //          1ère possibilité : Utiliser un certificat d'encryptage/décryptage
+            //          2nd  possibilité : Utiliser une clé synchrone pour crypter et décrypter
+        }
+
+        private static List<People> CreateObjects()
+        {
+            List<People> employeesList = new List<People>();
+            employeesList.Add(new People() { Firstname = "Hassib", Lastname = "BOULAS", Birthdate = DateTime.Parse("30/10/1980") });
+            employeesList.Add(new People() { Firstname = "Nabila", Lastname = "BOULAS", Birthdate = DateTime.Parse("22/09/1980") });
+            employeesList.Add(new People() { Firstname = "Khadija", Lastname = "ESSAFI", Birthdate = DateTime.Parse("01/01/1988") });
+            employeesList.Add(new People() { Firstname = "Haj", Lastname = "ESSAFI", Birthdate = DateTime.Parse("01/01/1954") });
+
+            return employeesList;
         }
     }
 }
