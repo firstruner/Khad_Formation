@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<People xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Firstname>Hassib</Firstname>
+  <Lastname>BOULAS</Lastname>
+  <Birthdate>1980-10-30T00:00:00</Birthdate>
+</People>
+<?xml version="1.0"?>
+<People xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Firstname>Nabila</Firstname>
+  <Lastname>BOULAS</Lastname>
+  <Birthdate>1980-09-22T00:00:00</Birthdate>
+</People>
+<?xml version="1.0"?>
+<People xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Firstname>Khadija</Firstname>
+  <Lastname>ESSAFI</Lastname>
+  <Birthdate>1988-01-01T00:00:00</Birthdate>
+</People>
+<?xml version="1.0"?>
+<People xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Firstname>Haj</Firstname>
+  <Lastname>ESSAFI</Lastname>
+  <Birthdate>1954-01-01T00:00:00</Birthdate>
+</People>

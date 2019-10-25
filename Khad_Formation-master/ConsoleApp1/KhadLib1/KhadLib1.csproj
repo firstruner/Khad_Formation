@@ -41,7 +41,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\People.cs" />
+    <Compile Include="Classes\PeopleSerialization.cs" />
     <Compile Include="Interfaces\IEncodeDecode.cs" />
+    <Compile Include="Interfaces\IPeoplesSerialization.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

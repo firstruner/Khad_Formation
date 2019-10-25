@@ -3,3 +3,8 @@ C:\c#\Khad_Formation-master\ConsoleApp1\KhadLib1\bin\Debug\KhadLib1.pdb
 C:\c#\Khad_Formation-master\ConsoleApp1\KhadLib1\obj\Debug\KhadLib1.csprojResolveAssemblyReference.cache
 C:\c#\Khad_Formation-master\ConsoleApp1\KhadLib1\obj\Debug\KhadLib1.dll
 C:\c#\Khad_Formation-master\ConsoleApp1\KhadLib1\obj\Debug\KhadLib1.pdb
+D:\Workspace\Khad_Formation\Khad_Formation-master\ConsoleApp1\KhadLib1\bin\Debug\KhadLib1.dll
+D:\Workspace\Khad_Formation\Khad_Formation-master\ConsoleApp1\KhadLib1\bin\Debug\KhadLib1.pdb
+D:\Workspace\Khad_Formation\Khad_Formation-master\ConsoleApp1\KhadLib1\obj\Debug\KhadLib1.csprojResolveAssemblyReference.cache
+D:\Workspace\Khad_Formation\Khad_Formation-master\ConsoleApp1\KhadLib1\obj\Debug\KhadLib1.dll
+D:\Workspace\Khad_Formation\Khad_Formation-master\ConsoleApp1\KhadLib1\obj\Debug\KhadLib1.pdb
