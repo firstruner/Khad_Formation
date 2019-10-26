@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Net.Http.Headers;
 using QA_1;
 
 namespace WinForm_Test.TestInterfaces
