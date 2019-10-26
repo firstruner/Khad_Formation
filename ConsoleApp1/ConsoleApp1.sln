@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{8A509E1A-2328-4C87-B854-BE1EAFDA296C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KhadLib1", "KhadLib1\KhadLib1.csproj", "{5464353B-78C4-4A12-BE26-E90FB80A828F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8A509E1A-2328-4C87-B854-BE1EAFDA296C} = {8A509E1A-2328-4C87-B854-BE1EAFDA296C}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

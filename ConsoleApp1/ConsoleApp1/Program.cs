@@ -4,6 +4,8 @@
     {
         static void Main(string[] args)
         {
+
+
             // --- Projet : KhadLib1 ---
             // TODO 1 : Créer une classe instanciable héritant de l'interface
             //          IEncoreDecode permettant d'encrypter et décrypter une chaine
@@ -18,6 +20,8 @@
             //        dans un fichier
 
             // !! ATTENTION à ta façon de coder !!
+
+
         }
     }
 }

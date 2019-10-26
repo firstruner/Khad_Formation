@@ -7,10 +7,10 @@ using Microsoft.SqlServer.Server;
 
 namespace KhadLib1.Interfaces
 {
-    public interface IEncodeDecode
+     interface IEncodeDecode
     {
-        string Encrypt(string source, string rsaPublicKey);
-
-        string Decrypt(string source, string rsaPrivateKey);
+        string Encrypt(string source);
+        
+        string Decrypt(string source);
     }
 }

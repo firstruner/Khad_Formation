@@ -1,0 +1,6 @@
+C:\c#\Khad_Formation\ConsoleApp1\KhadLib1\bin\Debug\KhadLib1.dll
+C:\c#\Khad_Formation\ConsoleApp1\KhadLib1\bin\Debug\KhadLib1.pdb
+C:\c#\Khad_Formation\ConsoleApp1\KhadLib1\obj\Debug\KhadLib1.dll
+C:\c#\Khad_Formation\ConsoleApp1\KhadLib1\obj\Debug\KhadLib1.pdb
+C:\c#\Khad_Formation\ConsoleApp1\KhadLib1\bin\Debug\KhadLib1.dll.CodeAnalysisLog.xml
+C:\c#\Khad_Formation\ConsoleApp1\KhadLib1\bin\Debug\KhadLib1.dll.lastcodeanalysissucceeded

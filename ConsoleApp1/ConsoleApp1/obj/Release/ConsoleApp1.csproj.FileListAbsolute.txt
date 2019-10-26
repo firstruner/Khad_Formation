@@ -1,0 +1,5 @@
+C:\c#\Khad_Formation\ConsoleApp1\ConsoleApp1\bin\Release\ConsoleApp1.exe.config
+C:\c#\Khad_Formation\ConsoleApp1\ConsoleApp1\bin\Release\ConsoleApp1.exe
+C:\c#\Khad_Formation\ConsoleApp1\ConsoleApp1\bin\Release\ConsoleApp1.pdb
+C:\c#\Khad_Formation\ConsoleApp1\ConsoleApp1\obj\Release\ConsoleApp1.exe
+C:\c#\Khad_Formation\ConsoleApp1\ConsoleApp1\obj\Release\ConsoleApp1.pdb
