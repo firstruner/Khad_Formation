@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KhadLib1", "KhadLib1\KhadLib1.csproj", "{5464353B-78C4-4A12-BE26-E90FB80A828F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QA_1", "QA_1\QA_1.csproj", "{83ACAD5A-5557-4AD0-963A-23C6B82C3582}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5464353B-78C4-4A12-BE26-E90FB80A828F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5464353B-78C4-4A12-BE26-E90FB80A828F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5464353B-78C4-4A12-BE26-E90FB80A828F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83ACAD5A-5557-4AD0-963A-23C6B82C3582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83ACAD5A-5557-4AD0-963A-23C6B82C3582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83ACAD5A-5557-4AD0-963A-23C6B82C3582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83ACAD5A-5557-4AD0-963A-23C6B82C3582}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
