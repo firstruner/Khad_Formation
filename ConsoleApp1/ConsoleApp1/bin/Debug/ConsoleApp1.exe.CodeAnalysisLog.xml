@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 14.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="14.0">
+ <Targets>
+  <Target Name="D:\Workspace\Khad_Formation\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe">
+   <Modules>
+    <Module Name="consoleapp1.exe">
+     <Messages>
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2019-10-27 06:23:44Z" FixCategory="NonBreaking">
+       <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">Signez 'ConsoleApp1.exe' avec une clé de nom fort.</Issue>
+      </Message>
+     </Messages>
+     <Namespaces>
+      <Namespace Name="ConsoleApp1">
+       <Types>
+        <Type Name="Program" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Main(System.String[])" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="args" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2019-10-27 06:23:44Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="D:\Workspace\Khad_Formation\ConsoleApp1\ConsoleApp1" File="Program.cs" Line="6">Le paramètre 'args' de 'Program.Main(string[])' n'est jamais utilisé. Supprimez-le ou utilisez-le dans le corps de la méthode.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="ConsoleApp1.Enumerations">
+       <Types>
+        <Type Name="Clés" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#PublicKey" Kind="Property" Static="True" Accessibility="Assembly" ExternallyVisible="False">
+           <Accessors>
+            <Accessor Name="#get_PublicKey()" Kind="Method" Static="True" Accessibility="Assembly" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2019-10-27 06:23:44Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Workspace\Khad_Formation\ConsoleApp1\ConsoleApp1\Enumerations" File="Clés.cs" Line="11">'Clés.PublicKey.get()' semble ne disposer d'aucun appelant public ou protégé en amont.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#TextAEncrypter" Kind="Property" Static="True" Accessibility="Assembly" ExternallyVisible="False">
+           <Accessors>
+            <Accessor Name="#get_TextAEncrypter()" Kind="Method" Static="True" Accessibility="Assembly" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2019-10-27 06:23:44Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="D:\Workspace\Khad_Formation\ConsoleApp1\ConsoleApp1\Enumerations" File="Clés.cs" Line="17">'Clés.TextAEncrypter.get()' semble ne disposer d'aucun appelant public ou protégé en amont.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210">
+   <Name>Les assemblys doivent porter des noms forts valides</Name>
+   <Description>L'assembly possède un nom fort non valide ou aucun nom fort, ou le nom fort est valide uniquement en raison de la configuration de l'ordinateur. L'assembly ne doit pas être déployé dans cet état. Les causes les plus courantes de ce problème sont les suivantes : 1) Le contenu de l'assembly a été modifié après la signature de l'assembly. 2) Le processus de signature a échoué. 3) La signature de l'assembly a été différée. 4) Il existait une clé de Registre qui permettait la réussite du contrôle (laquelle aurait été impossible dans le cas contraire).</Description>
+   <Resolution Name="NoStrongName">Signez {0} avec une clé de nom fort.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182127.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811">
+   <Name>Évitez le recours à du code privé non appelé</Name>
+   <Description>Il existe du code non appelé qui n'est pas visible de l'extérieur et ne constitue pas un point d'entrée connu du runtime. Si cette violation provoque une erreur, signalez le problème à l'équipe Visual Studio Code Analysis.</Description>
+   <Resolution Name="Default">{0} semble ne disposer d'aucun appelant public ou protégé en amont.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182264.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801">
+   <Name>Passez en revue les paramètres inutilisés</Name>
+   <Description>Passez en revue dans les méthodes non virtuelles les paramètres qui ne sont pas utilisés dans le corps de la méthode pour vous assurer que rien n'empêche d'y accéder. Les paramètres inutilisés impliquent des coûts d'entretien et de performance. Dans certains cas, une violation de cette règle peut désigner un problème d'implémentation dans la méthode (ce qui signifie que le paramètre aurait du être utilisé dans le corps de la méthode). Ignorez les avertissements liés à cette règle si le paramètre doit être présent pour des raisons de compatibilité descendante.</Description>
+   <Resolution Name="Default">Le paramètre {0} de {1} n'est jamais utilisé. Supprimez-le ou utilisez-le dans le corps de la méthode.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182268.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="usagerules.dll" Version="14.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Catégorie</String>
+  <String Key="Certainty">Certitude</String>
+  <String Key="CollapseAll">Réduire tout</String>
+  <String Key="CheckId">ID de contrôle</String>
+  <String Key="Error">Erreur</String>
+  <String Key="Errors">erreur(s)</String>
+  <String Key="ExpandAll">Développer tout</String>
+  <String Key="Help">Aide</String>
+  <String Key="Line">Ligne</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Emplacement non stocké dans le fichier Pdb]</String>
+  <String Key="Project">Projet</String>
+  <String Key="Resolution">Résolution</String>
+  <String Key="Rule">Règle</String>
+  <String Key="RuleFile">Fichier de règles</String>
+  <String Key="RuleDescription">Description de la règle</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">État</String>
+  <String Key="Target">Cible</String>
+  <String Key="Warning">Avertissement</String>
+  <String Key="Warnings">avertissement(s)</String>
+  <String Key="ReportTitle">Rapport d'analyse du code</String>
+ </Localized>
+</FxCopReport>

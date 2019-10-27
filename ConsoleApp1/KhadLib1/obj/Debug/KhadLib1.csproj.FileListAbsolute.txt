@@ -1,0 +1,7 @@
+D:\Workspace\Khad_Formation\ConsoleApp1\KhadLib1\bin\Debug\KhadLib1.dll
+D:\Workspace\Khad_Formation\ConsoleApp1\KhadLib1\bin\Debug\KhadLib1.pdb
+D:\Workspace\Khad_Formation\ConsoleApp1\KhadLib1\bin\Debug\KhadLib1.dll.CodeAnalysisLog.xml
+D:\Workspace\Khad_Formation\ConsoleApp1\KhadLib1\bin\Debug\KhadLib1.dll.lastcodeanalysissucceeded
+D:\Workspace\Khad_Formation\ConsoleApp1\KhadLib1\obj\Debug\KhadLib1.csprojResolveAssemblyReference.cache
+D:\Workspace\Khad_Formation\ConsoleApp1\KhadLib1\obj\Debug\KhadLib1.dll
+D:\Workspace\Khad_Formation\ConsoleApp1\KhadLib1\obj\Debug\KhadLib1.pdb
