@@ -1,4 +1,5 @@
 @echo off
+                        @echo Dossier %CD%
                         @echo Add
                         git add *
                         @echo Commit
