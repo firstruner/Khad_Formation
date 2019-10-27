@@ -1,4 +1,11 @@
+<<<<<<< HEAD
+C:\Users\Christophe\Documents\Workspace\Khad_Formation\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\Christophe\Workspace\Khadija\Khad_Formation\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\Christophe\Workspace\Khadija\Khad_Formation\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\Christophe\Workspace\Khadija\Khad_Formation\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+=======
 D:\Workspace\Khad_Formation\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+<<<<<<< HEAD
 D:\Workspace\Khad_Formation\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
 D:\Workspace\Khad_Formation\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
 D:\Workspace\Khad_Formation\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.CodeAnalysisLog.xml
@@ -6,3 +13,6 @@ D:\Workspace\Khad_Formation\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.la
 D:\Workspace\Khad_Formation\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 D:\Workspace\Khad_Formation\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
 D:\Workspace\Khad_Formation\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojResolveAssemblyReference.cache
+=======
+>>>>>>> 48f26a75391c659c599abb0d52142f43e748054c
+>>>>>>> f6a117e8cb129b471975ca847bf2148d697ef5e8
